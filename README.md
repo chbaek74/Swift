@@ -96,6 +96,8 @@ print("The status message is \(http200status.description)")
 **Optional**
 * 값이 없을 수있는 상황에서 옵션을 사용합니다. 선택 사항은 두 가지 가능성을 나타냅니다. 값이 있으며 선택 사항을 눌러 해당 값에 액세스 할 수 있거나 값이 전혀 없습니다. 
 
+* 1 
+*  2
 ### 기본 오퍼레이터
 
 ---
