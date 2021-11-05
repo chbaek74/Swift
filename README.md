@@ -32,8 +32,7 @@ var pi: Double = 3.14159
 var pi: Float = 3.14 
 var boolean: Bool = true // -- or false 
 
-var x = 0.0, y = 0.0 , z = 0.0 
-
+// semi-colon is good 
 var x = 0.0, y = 0.0 , z = 0.0; 
 
 // 정수 바운드리 
@@ -72,7 +71,7 @@ print(Min);
 
 ```
 **튜플(Tuple)**
-튜플은 여러 값을 단일 복합 값으로 그룹화합니다. 튜플 내의 값은 모든 유형이 될 수 있으며 서로 동일한 유형일 필요는 없습니다. 
+* 튜플은 여러 값을 단일 복합 값으로 그룹화합니다. 튜플 내의 값은 모든 유형이 될 수 있으며 서로 동일한 유형일 필요는 없습니다. 
 ```swift
 let http404Error = (404, "Not Found")
 
@@ -94,6 +93,8 @@ print("The status Code is \(http200status.statusCode)")
 print("The status message is \(http200status.description)")
 
 ```
+**Optional**
+* 값이 없을 수있는 상황에서 옵션을 사용합니다. 선택 사항은 두 가지 가능성을 나타냅니다. 값이 있으며 선택 사항을 눌러 해당 값에 액세스 할 수 있거나 값이 전혀 없습니다. 
 
 ### 기본 오퍼레이터
 
